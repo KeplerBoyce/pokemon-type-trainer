@@ -39,16 +39,16 @@ export default function Home() {
         { name: "electric", attackWords: "you zap", defendWords: "electricity", color: "bg-electric" },
         { name: "grass", attackWords: "you grass", defendWords: "grass", color: "bg-grass" },
         { name: "ice", attackWords: "you freeze", defendWords: "ice", color: "bg-ice" },
-        { name: "fighting", attackWords: "you fight", defendWords: "a fighter", color: "bg-fighting" },
+        { name: "fighting", attackWords: "you fight", defendWords: "Mike Tyson", color: "bg-fighting" },
         { name: "poison", attackWords: "you poison", defendWords: "poison", color: "bg-poison" },
         { name: "ground", attackWords: "you ground", defendWords: "the ground", color: "bg-ground" },
-        { name: "flying", attackWords: "you fly", defendWords: "a flier", color: "bg-flying" },
-        { name: "psychic", attackWords: "you psychic", defendWords: "a psychic", color: "bg-psychic" },
+        { name: "flying", attackWords: "you fly", defendWords: "a fly", color: "bg-flying" },
+        { name: "psychic", attackWords: "you psych", defendWords: "a psychic", color: "bg-psychic" },
         { name: "bug", attackWords: "you bug", defendWords: "a bug", color: "bg-bug" },
         { name: "rock", attackWords: "you rock", defendWords: "a rock", color: "bg-rock" },
-        { name: "ghost", attackWords: "you ghost", defendWords: "a ghost", color: "bg-ghost" },
+        { name: "ghost", attackWords: "you ghost", defendWords: "your nightmares", color: "bg-ghost" },
         { name: "dragon", attackWords: "you drag", defendWords: "a dragon", color: "bg-dragon" },
-        { name: "dark", attackWords: "you dark", defendWords: "a shadow", color: "bg-dark" },
+        { name: "dark", attackWords: "you shade", defendWords: "a shadow", color: "bg-dark" },
         { name: "steel", attackWords: "you steel", defendWords: "steel", color: "bg-steel" },
         { name: "fairy", attackWords: "you fairy", defendWords: "a fairy", color: "bg-fairy" },
     ];
@@ -107,7 +107,7 @@ export default function Home() {
         <Head>
             <title>Pokemon Type Trainer</title>
         </Head>
-        <main className="container h-screen mx-auto pt-12 flex flex-col gap-4 items-center">
+        <main className="container h-screen mx-auto pt-12 flex flex-col gap-4 items-center text-center">
             <p className="text-5xl font-bold">
                 Funny Pokemon type practice
             </p>
