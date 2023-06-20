@@ -1,6 +1,7 @@
 'use client'
 
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
+import Head from 'next/head';
 
 interface pokeType {
     name: String,
@@ -102,7 +103,10 @@ export default function Home() {
         localStorage.setItem("total", "0")
     }
 
-    return (
+    return (<>
+        <Head>
+            <title>Pokemon Type Trainer</title>
+        </Head>
         <main className="container h-screen mx-auto pt-12 flex flex-col gap-4 items-center">
             <p className="text-5xl font-bold">
                 Funny Pokemon type practice
@@ -167,6 +171,6 @@ export default function Home() {
                 </p>
             </div>
         </main>
-    )
+    </>)
 }
 
